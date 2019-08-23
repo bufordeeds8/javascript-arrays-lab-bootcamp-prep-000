@@ -9,11 +9,11 @@ function destructivelyPrependKitten(name) {
   kittens.unshift('Bob')
 }
 
-function destructivelyRemoveLastKitten(name) {
+function destructivelyRemoveLastKitten() {
   kittens.pop('Garfield')
 }
 
-function destructivelyRemoveFirstKitten(name) {
+function destructivelyRemoveFirstKitten() {
   kittens.shift('Milo')
 }
 
