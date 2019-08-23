@@ -22,4 +22,3 @@ function appendKitten(name) {
   return moreKittens
 }
 
-console.log(appendKitten(name))
