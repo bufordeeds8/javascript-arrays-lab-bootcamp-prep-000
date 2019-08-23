@@ -21,3 +21,5 @@ function appendKitten(name) {
   var moreKittens = kittens.push('Broom')
   return moreKittens
 }
+
+console.log(appendKitten(name))
