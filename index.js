@@ -18,5 +18,5 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten() {
-  
+  var moreKittens = kittens.slice([0],[3]) + 'Broom'
 }
