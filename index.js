@@ -18,8 +18,7 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  var moreKittens = []
-  moreKittens.concat(kittens)
-  moreKittens.push(name)
+  var moreKittens = [...kittens, name]
   return moreKittens
 }
+
