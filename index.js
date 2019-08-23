@@ -22,3 +22,5 @@ function appendKitten() {
   console.log(moreKittens)
   return moreKittens
 }
+
+appendKitten()
